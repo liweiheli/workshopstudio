@@ -1,0 +1,89 @@
+@font-face{
+  font-family:"Simple-Light";
+  src: url("https://liweiheli.github.io/seventype/seventypes/SimpleOTF/Simple-Light.otf");
+}
+
+@font-face{
+  font-family:"Simple";
+  src: url("https://liweiheli.github.io/seventype/seventypes/SimpleOTF/Simple.otf");
+}
+
+@font-face{
+  font-family:"Simple-Bold";
+  src: url("https://liweiheli.github.io/seventype/seventypes/SimpleOTF/Simple-Bold.otf");
+}
+
+
+
+
+body{
+  height:100vh;
+  background-image: url("image/pic1.gif");
+  background-size: cover;
+}
+
+.text1{
+  font-family:"Simple-Light";
+  position: absolute;
+  font-size:3em;
+  top:38vh;
+  left:30vh;
+}
+
+.text2{
+  position: relative;
+  display: none;
+}
+.text3{
+  position: relative;
+  display: none;
+}
+
+
+@media only screen and ( max-width: 1200px )
+{body{
+  background-image: url("image/pic2.gif");
+}
+.text1{
+  position: relative;
+  display: none;
+}
+.text2{
+  font-family:"Simple";
+  position: absolute;
+  display: inline-block;
+  font-size:5em;
+  top:30vh;
+  left:50vh;
+}
+.text3{
+  position: relative;
+  display: none;
+}
+
+
+
+
+}
+
+@media only screen and ( max-width: 900px )
+{body{
+  background-image: url("image/pic3.gif");
+}
+.text1{
+  position: relative;
+  display: none;
+}
+.text2{
+  position: relative;
+  display: none;
+}
+.text3{
+  font-family:"Simple";
+  position: absolute;
+  display: inline-block;
+  font-size:7em;
+  top:30vh;
+  left:35vh;
+}
+}
