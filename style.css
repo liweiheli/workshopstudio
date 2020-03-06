@@ -81,9 +81,11 @@ body{
 .text3{
   font-family:"Simple-Bold";
   position: absolute;
+  text-decoration: none;
   display: inline-block;
   font-size:7em;
   top:30vh;
   left:35vh;
+  color:black;
 }
 }
